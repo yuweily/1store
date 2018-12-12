@@ -1,0 +1,397 @@
+@import "base";
+#indexBox{
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #f4f4f4;
+	line-height: 30px;
+	.index{
+		font-family:"微软雅黑";
+		margin: 0 auto;
+		width: 1070px;
+		.index-left{
+			float:left;
+			.index-ul{
+				li{
+					float:left;
+					padding-right:24px;
+					a{
+						div{float:left;}
+						div:nth-child(1){margin-top:2px;}
+						div:nth-child(2){margin-left:6px;}
+					}
+				}
+
+			}
+		}
+		$color:#ff4040;
+		.index-right{
+			float:right;
+			margin-right:30px;
+			.index-right-ul{
+				li{float:left;
+					div{float: left}
+				}
+				.li1{float:left;
+					.text{
+						div:nth-of-type(1){color:$color;}
+						div:nth-of-type(2) a{
+							color:$color;
+							&:hover{text-decoration:none;};
+						}
+						div:nth-of-type(3){
+							margin-left:12px; 
+							a{
+								color:#aaaaaa;
+								&:hover{color:$color;text-decoration: none}
+							}
+						}
+					}
+				}
+				.li2{
+					margin:0 12px 0 20px;
+					div:nth-of-type(1){margin:2px 2px;height:28px;}
+					div:nth-of-type(2){
+						a{
+							color:#aaaaaa;
+							&:hover{color:$color;text-decoration: none}
+						}
+					}
+				}
+				.li3{
+					&:hover{color:$color;}
+					padding: 0 14px 1px;
+					.li3-span{
+						margin-right:6px;
+						color:#aaaaaa;
+							a:hover{color:$color;text-decoration: none}
+						.hidden{
+							border:1px solid #ddd; 
+							display:none;
+							z-index:10; 
+							position: absolute;
+							top:-2px;
+							right:13.2%;
+							width:88px;
+							height:100px;
+							ul,li{clear:both;height:30px;width:100px;}
+							ul li:nth-child(2),li:nth-child(3){background:#fff;width:88px;
+								a{padding-left: 12px}
+							}
+							ul li:nth-child(3){height:40px;}
+
+						}
+					}
+				}
+				.li4{
+					div:nth-child(2){
+						a{&:hover{color:$color;text-decoration: none}}
+					}
+					margin-left: 12px;
+					.li4-icon{margin:4px 10px 0 -2px;}
+					.li4-code{
+						display:none;
+						width:90px;
+						height:130px;
+						padding:10px;
+						position:absolute;
+						z-index:30;
+						top:34px;
+						right:13%;
+						background:#fff;
+						border:1px solid #ddd;
+						div:nth-of-type(1){
+							width:90px;
+							height:40px;
+							line-height:20px;
+							text-align: center
+							
+						}
+						div:nth-of-type(2){
+							width:90px;
+							height:90px;
+							img{width:100%;}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#searchBox{
+	.height{
+		height:138px;
+	}
+	.search{
+		width:1230px;
+		margin:0 auto;
+		.logo{
+			width:78px;
+			height:72px;
+			float:left;
+			margin:24px 66px 14px;
+		}
+		.seek{
+			float:left;
+			margin:32px 0  0 270px;
+			.seek-top{
+				width:470px;
+				height:40px;
+				position: relative;
+				z-index: 501;
+				padding: 2px;
+				border-radius: 100px;
+				background-color: #ff4040;
+				#text{
+					width: 390px;
+					height:36px;
+					padding-left:10px;
+					margin-bottom:10px;
+					border-top-left-radius: 100px;
+					border-bottom-left-radius: 100px;
+				}
+				#seekBtn{
+					background:url(../images/index/seek.jpg) no-repeat center red;
+					float: right;
+					width: 30px;
+					height: 36px;
+					margin-right:20px;
+					border: 0 none;
+					background-color: #ff4040;
+					text-align: center;
+					line-height: 36px;
+					color: #fff;
+					cursor: pointer;
+					outline: 0;
+				}
+			}
+			.seek-keyWord{
+				height:38px;
+				line-height:38px;
+				margin-left:8px;
+				a{
+					margin-right: 6px;color:#aaa;
+					&:hover{color:#ff4040;text-decoration: none}
+				}
+			}
+		}
+		.shopCart{
+			margin:34px 130px 0 0;
+			width:74px;
+			height:38px;
+			line-height:38px;
+			float:right;
+			border:1px solid #aaa;
+			border-radius:30px;
+			padding:0 24px;
+			a{	
+				display:block;
+				height:38px;
+				width:112px;
+				div{float:left;}
+				div:nth-child(1){margin:4px 10px 0 0;}
+				color:#666;
+				font-size:16px;
+			}
+		}
+	}
+}
+#cont{
+	.cont-head{
+		border-bottom:2px solid red;
+		line-height:38px;
+		font-weight:900;
+		color:#666;
+		.head-ul{
+			padding-left: 140px;
+			font-size: 16px;
+			color: #333;
+			overflow: hidden;
+			height: 100%;
+			li{
+				float: left;
+				margin-left: 30px;
+				cursor: pointer;
+			}
+			.active{
+				background:red;
+				padding:0 20px;
+				color:#fff;
+			}
+		}
+	}
+	.cont-details{
+		width:1070px;
+		margin:0 auto;
+		ul{
+			.cont-left{
+				margin-top:10px;
+				#left{
+				    width:400px;
+				    height:400px;
+				    border:1px solid #dddddd;
+				    position: relative;
+				    float:left;
+				    background: url(https://img13.360buyimg.com/imgzone//s360x360_jfs/t1/2746/2/11948/223864/5bd1b3cdE25fa26a6/8c53ef5abcae7955.jpg) no-repeat;
+				}
+				 
+				#left #huakuai{
+				    width:200px;
+				    height:200px;
+				    background:white;
+				    position: absolute;
+				    opacity: 0.6;
+				    filter:alpha(opacity=60);
+				    display: none;
+				}
+				#left #cover{
+				    width:400px;
+				    height: 400px;
+				    position: absolute;
+				    z-index: 3;
+				    top:0px;
+				    left:0px;
+				    background: red;
+				    opacity: 0;
+				    filter:alpha(opacity=0);
+				    /*相当于给左边的div加了一个盖子，鼠标直接作用在盖子上，不用作用滑块上，防止滑块的抖动*/
+				}
+				#right{
+				    width:400px;
+				    height:400px;
+				    border:1px solid #dddddd;
+				    overflow: hidden;
+				    float: left;
+				    margin-left:20px;
+				    position:relative;
+				    display: none;
+				}
+				#right #right_img{
+					width:800px;
+					height:800px;
+				    position: absolute;
+				    top:0px;
+				    left:0px;
+				    /*根据鼠标的移动，图片的显示区域显示相应的位置*/
+				}				
+			}
+		}
+	}
+}
+#footBox{
+	background:#fff;
+	.foot{
+	    margin: 0 auto;
+   		width: 1228px;
+   		.top{
+   			margin: 0 auto;
+			width: 1228px;
+			padding: 30px 0;
+			border-bottom: 1px solid #ebebeb;
+			li{
+				float:left;
+				width: 205px;
+				overflow: hidden;
+				margin: 0 51px;
+				.pic{
+					float: left;
+					width: 66px;
+					height: 66px;
+					margin-right: 15px;
+				}
+				.text{
+					h2{
+						margin-top: 10px;
+						font-family: "Microsoft YaHei";
+						font-size: 16px;
+						color: #333;
+					}
+					h3{
+						font-family: "Microsoft YaHei";
+						font-size: 14px;
+						color: #999;
+						line-height: 26px;
+					}
+				}
+			}
+   		}
+   		.cent{
+   			padding: 20px 0 20px;
+   			div{float:left}
+			.list{
+				padding-left: 15px;
+				ul{
+					li{
+						float: left;
+						display: block;
+						width: 195px;
+						h4{
+							height: 32px;
+							padding: 0 8px;
+							font-size: 14px;
+							color: #666;
+							line-height: 32px;
+							overflow: hidden;
+							font-family: "Microsoft YaHei";
+							color: #666;
+							font-weight: bold;
+						}
+						h5{
+						    height: 24px;
+						    padding: 0 8px;
+						    line-height: 24px;
+						    overflow: hidden;
+						    white-space: normal;
+						    font-size: 12px;
+						}
+					}
+				}
+			}
+			.code{
+				width: 280px;
+				overflow: hidden;
+				margin-right: -50px;
+				div{
+					float: left;
+					margin-right: 50px;
+					line-height: 32px;
+					font-size: 14px;
+					font-weight: bold;
+					color: #666;
+					a{
+						text-decoration: none;
+						color: #333;
+					}
+				}
+			}
+   		}
+   		.bot{
+			.p1{
+				color: #666;
+				text-align: center;
+				line-height: 100%;
+				margin: 15px 0;
+				a{
+					margin: 0px 12px;
+				}
+			}
+			.p2{
+				color: #666;
+				text-align: center;
+				text-indent: 0;
+				line-height: 100%;
+				margin: 15px 0;
+			}
+			.img{
+				padding: 10px 0 20px;
+				text-align: center;
+				font-size: 0;
+				a{
+					display: inline-block;
+					margin: 0 4px;
+					img{
+						vertical-align: top;
+					}
+				}
+			}
+   		}
+	}
+}

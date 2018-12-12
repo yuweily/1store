@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商品列表页</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src = "js/require.js" async="true" defer data-main = 'js/mainGoods'></script>	
+</head>
+<body>
+	<div id= "indexBox">
+		<div class="index cr">
+			<div class="index-left cr">
+				<ul class="index-ul cr">
+					<li class="index-ul-li1">
+						<a href="index.html">
+							<div><img src="../images/index/index_09.jpg" alt=""></div>
+							<div>1号店首页</div>
+						</a>
+					</li>
+					<li class="index-ul-li1">
+						<a href="">
+							<div><img src="../images/index/index_06.jpg" alt=""></div>
+							<div>送货地址：上海</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="index-right">
+				<ul class="index-right-ul cr">
+					<li class="li1">
+						<div class="text">
+							<div><span>Hi,请</span></div>
+							<div><a href="1storeLogin.html">登录</a></div>
+							<div><a href="1storeRegister.html">注册</a></div>
+						</div>
+					</li>
+					<li class="li2 cr">
+						<div><img src="../images/index/index_12.jpg" alt=""></div>
+						<div><a href="">我的订单</a></div>
+					</li>
+					<li class="li3 cr">
+						<div class="li3-span">
+							<a class="li3-span-a" href="">客户服务</a>
+							<div class="hidden">					<ul>
+									<li class="server"></li>
+									<li><a href="">包裹跟踪</a></li>
+									<li><a href="">在线退换货</a></li>
+								</ul>			
+							</div>
+						</div>
+						<div><img src="../images/index/index_15.jpg" alt=""></div>
+					</li>
+					<li class="li4 cr">
+						<div class="li4-icon"><img src="../images/index/index_03.jpg" alt=""></div>
+						<div><a href="">APP下载</a></div>
+						<div class="li4-code">
+							<div>扫描二维码<br>下载1号店APP</div>
+							<div><img src="../images/index/code.jpg" alt=""></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="searchBox">	
+		<div class="search cr height">
+			<div class="logo">
+				<img src="../images/index/index_23.jpg" alt="">
+			</div>
+			<div class="seek">
+				<div class="seek-top">
+					<input id="text" type="text" placeholder="水之密语套装">
+					<button id="seekBtn"></button>
+				</div>
+				<div class="seek-keyWord">
+					<a href="">坚果</a>
+					<a href="">酒</a>
+					<a href="">消毒液</a>
+					<a href="">牙膏</a>
+					<a href="">苹果配件</a>
+					<a href="">果汁</a>
+					<a href="">薇诺娜</a>
+					<a href="">泡面</a>
+					<a href="">矿泉水</a>
+					<a href="">华为</a>
+				</div>
+			</div>
+			<div class="shopCart">
+				<a href="settlement.html">
+					<div><img src="../images/index/index_26.jpg" alt=""></div>
+					<div>购物车</div>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div id="contBox">
+		<div class="cont cr">
+			<div class="title cr">
+				<div class="title-l">
+					全球精选
+					<span>GLOBAL SALE</span>
+				</div>
+				<div class="title-r cr">
+					<p>1/2</p>
+					<p><img src="../images/index/cont-btn_03.png" alt=""></p>
+					<p><img src="../images/index/cont-btn_05.jpg" alt=""></p>
+				</div>
+			</div>
+			<div class="goods">
+				<ul class="global cr">
+				<!-- 动态加载 -->
+					<!-- <li class = 'goods_item'>
+						<div class = 'goods_pic'>
+							<a href=""><img src="${res[i].img}" alt=""></a>
+						</div>
+						<div class = 'goods_title'>
+							<p>${res[i].title}</p>
+							<p>${res[i].price}</p>
+							<p>${res[i].price2}</p>
+						</div>
+						<div class = 'sc'>
+							<div id ="0" class = 'sc_btn'><a href="">立即购买</a></div>
+						</div>
+					</li> -->
+				</ul>
+				<div class="title brand-title cr">
+					<div class="title-l">
+						品牌直达
+						<span>BRAND DIRECT</span>
+					</div>
+					<div class="title-r cr">
+						<p>1/2</p>
+						<p><img src="../images/index/cont-btn_03.png" alt=""></p>
+						<p><img src="../images/index/cont-btn_05.jpg" alt=""></p>
+					</div>
+				</div>
+				<ul class="brand cr">
+					<li class="brand-1">
+						<a href="" class="brand-1-a">
+							<img src="http://img14.360buyimg.com/img/jfs/t1/4885/25/10857/35796/5bcd5339Ed42ab892/81aef7a179269552.jpg" alt="">
+						</a>
+						<div class="infor">
+							<span></span>
+							<h3 class="title-h3">丹麦皇冠</h3>
+							<em class="line"></em>
+							<p class="descrip">爆款直降</p>
+						</div>
+					</li>
+					<li class="brand-1">
+						<a href="" class="brand-1-a">
+							<img src="http://img11.360buyimg.com/img/jfs/t22513/263/2074885382/37337/cbd6a8c7/5b73ee14Nfc717c3e.jpg" alt="">
+						</a>
+						<div class="infor">
+							<span></span>
+							<h3 class="title-h3">安佳牛奶</h3>
+							<em class="line"></em>
+							<p class="descrip">唤醒好时光</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 右边购物车 -->
+	<div id="shopping">
+		<div class="sc_right">
+			<div class="sc_pic">
+
+				<!-- 购物车内商品的数量 -->
+				<div class="sc_num">
+					0
+				</div>
+			</div>
+
+			<ul>
+				
+			</ul>
+		</div>
+		<div id = 'ball'></div>
+	</div>	
+	<!-- 底部 -->
+	<div id="footBox">
+		<div class="foot">
+			<ul class="top cr">
+				<li>
+					<div class="pic"><img src="http://d8.yihaodianimg.com/N05/M0B/39/F3/CgQI0lWskgmADBnsAAAPZvcSh3E68900.jpg" alt=""></div>
+					<div class="text">
+						<h2>正品保障</h2>
+						<h3>正品行货 放心选购</h3>
+					</div>
+				</li>
+				<li>
+					<div class="pic"><img src="http://d6.yihaodianimg.com/N05/M09/96/23/ChEbulWsk4iADa_aAAAM544hHN818600.jpg" alt=""></div>
+					<div class="text">
+						<h2>满86包邮</h2>
+						<h3>满86元 免运费</h3>
+					</div>
+				</li>
+				<li>
+					<div class="pic"><img src="http://d9.yihaodianimg.com/N07/M00/2D/8B/CgQIz1WslI-Adao3AAAN5b_ut2I80100.jpg" alt=""></div>
+					<div class="text">
+						<h2>售后无忧</h2>
+						<h3>七天无理由退货</h3>
+					</div>
+				</li>
+				<li>
+					<div class="pic"><img src="http://d8.yihaodianimg.com/N09/M06/08/C8/ChEi11WsyiyALBbiAAAN9lEEK5M33200.jpg" alt=""></div>
+					<div class="text">
+						<h2>准时送达</h2>
+						<h3>收货时间由你做主</h3>
+					</div>
+				</li>
+			</ul>
+			<div class="cent cr">
+			 	<div class="list">
+					<ul class="cr">
+						<li>
+							<h4>新手入门</h4>
+							<h5><a href="">购物流程</a></h5>
+							<h5><a href="">会员制度</a></h5>
+							<h5><a href="">订单查询</a></h5>
+							<h5><a href="">发票制度</a></h5>
+							<h5><a href="">网站地图</a></h5>
+						</li>
+						<li>
+							<h4>支付方式</h4>
+							<h5><a href="">货到付款</a></h5>
+							<h5><a href="">网上支付</a></h5>
+							<h5><a href="">礼品卡支付</a></h5>
+							<h5><a href="">其他支付</a></h5>
+						</li>
+						<li>
+							<h4>配送服务</h4>
+							<h5><a href="">配送进度查询</a></h5>
+							<h5><a href="">商品验货与签收</a></h5>
+						</li>
+						<li>
+							<h4>售后保障</h4>
+							<h5><a href="">退换货政策</a></h5>
+							<h5><a href="">联系客服</a></h5>
+						</li>
+					</ul>
+			 	</div>
+			 	<div class="code">
+					<div>
+						<p>APP更优惠</p>
+						<a href=""><img src="http://img.yihaodianimg.com/front-homepage/index/images/qryhd.png?1=1" alt=""></a>
+					</div>
+					<div>
+						<p>加微信查订单</p>
+						<a href=""><img src="http://img30.360buyimg.com/img/jfs/t15403/130/239695202/5772/891e9fb1/5a2798bbN479da3df.jpg" alt=""></a>
+					</div>
+			 	</div>
+			</div>
+			<div class="bot">
+				<p class="p1 cr">
+					<a href="">沪ICP备16050468号</a>|	
+					<a href="">经营证照</a>|
+					<a href="">互联网药品信息服务资格证</a>|
+					<a href="">违法和不良信息举报电话：0527-88100253</a>|
+					<a href="">沪B2-20170039</a>|	
+					<a href="">沪公网安备 31010502002939号</a>|	
+					<a href="">友情链接</a>|	
+					<a href="">出版物经营许可证</a>	
+				</p>
+				<p class="p2">Copyright© 1号店网上超市 2007-2018，All Rights Reserved</p>
+				<p class="img">
+					<a href=""><img src="http://d9.yihaodianimg.com/N01/M0A/95/FD/CgQCr1PQy1CAF7vaAABDexsiEYM24800.jpg" alt=""></a>
+					<a href=""><img src="http://d9.yihaodianimg.com/N08/M06/6C/9C/ChEi1VcfPl2AC1T8AAANFrEfJlw97300.jpg" alt=""></a>
+					<a href=""><img src="http://d6.yihaodianimg.com/N10/M09/0E/1F/ChEi2lh171KAJrGlAAALl_uZt0E75600.jpg" alt=""></a>
+					<a href=""><img src="http://d9.yihaodianimg.com/N08/M01/C7/7E/ChEi1FYXHcOAVk_WAAAL2r2-yfo10200.jpg" alt=""></a>
+					<a href=""><img src="http://d9.yihaodianimg.com/N01/M03/A0/40/CgQCrlPYTqCASlHXAAAd82JE0eA31000.png" alt=""></a>
+					<a href=""><img src="http://img30.360buyimg.com/img/jfs/t16534/130/1965976230/19256/c267b386/5a706bb1Ne3eec0dd.png" alt=""></a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

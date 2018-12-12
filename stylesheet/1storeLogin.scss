@@ -1,0 +1,44 @@
+@import "base";
+body{background:#fcfcfc;}
+#head{height:80px;border:1px solid #e1e1e1;background:#fff;}
+#head .logo {margin:22px 0 0 120px;float:left;}
+#head .login{float:right;margin:18px 108px;}
+#head .login .ul1 .li1{color:#989898;}
+#head .login .ul1 .li1, .li2, .ul1_help{float:left;font-size:12px;height:26px;border:1px solid #fff;}
+#head .login .ul1 .ul1_help{position:relative;top:-6px;}
+#head .login .ul1 .ul1_help .ul1_help_top{width:98px;height:24px;line-height:24px;position:relative;z-index: 11}
+#head .login .ul1 .ul1_help img,.a1{float:left;}
+#head .login .ul1 .ul1_help img{margin-top:4px;margin-left:4px;}
+#head .login .ul1 .ul1_help .img1{margin-top:8px;}
+#head .login .ul1 .ul1_help .ul1_help_hidden{position:absolute;z-index: 10; top:0px;left:-1px;border:1px solid #e4e4e4;display:none;}
+#head .login .ul1 .ul1_help .ul1_help_hidden li{width:98px;height:24px;line-height:24px;text-align: center;border-top:1px dashed #e4e4e4;}
+#head .login .ul1 .ul1_help .ul1_help_hidden .lin{border-top:0;height:24px;}
+#head .login .ul1 .li2 a{padding:0 20px 0 8px;font-size:12px;color:#0063ca;}
+#head .login .ul1 .li2 a:hover {color:red;text-decoration: none}
+#head .login .ul1 .ul1_help a:hover{color:red;text-decoration: none}
+#head .login .ul1 .ul1_help .a1{padding:0 6px;display:block;}
+#content{border-top:1px solid #e1e1e1;background:#fcfcfc;position:relative;}
+#content .cont{margin-left:216px;}
+#content .cont .cont_left{margin-top: 72px;width:510px;float:left;}
+#content .cont .cont_right{width:330px;margin:26px 0 0 70px;padding:36px;background:url(../images/code.png) no-repeat right bottom #fff;float:left;}
+#content .cont .cont_right .head{margin-top:18px;}
+#content .cont .cont_right .head label{font-family: "微软雅黑";font-weight:800;font-size: 15px;color:#666666;}
+#content .cont .cont_right .head>a{float:right;color:blue;padding:4px;}
+#content .cont .cont_right .use{display:inline-block;width:330px;height:52px;border:1px solid #666;margin:5px 0;}
+#content .cont .cont_right .use label{height:54px;line-height:54px;padding:18px;font-size:16px;color:#b5b5b5;}
+#content .cont .cont_right .use input{padding-left:14px;border:none;color:#d7ccd7;}
+#content .cont .cont_right .use #int2{color:black;}
+#content .cont .cont_right .check{padding:14px 0;}
+#content .cont .cont_right .check input{float:left;}
+#content .cont .cont_right .check label:nth-of-type(1){float:left;padding-left:4px;color:#999;}
+#content .cont .cont_right .check label:nth-of-type(2){float:right;}
+#content .cont .cont_right .check label:nth-of-type(2) a{color:#999;}
+#content .cont .cont_right button{width:330px;height:52px;border:1px solid #ff3c3c;border-radius:4px;background:#ff3c3c;color:#fff;}
+#content .cont .cont_right .more p{padding:18px 0;}
+#content .cont .cont_right .more .pic{height:34px;line-height:34px;}
+#content .cont .cont_right .more .pic ul li{float:left;padding-right:20px;}
+#foot{background:#fcfcfc;;padding-top: 24px}
+#foot ul{width:278px;margin:22px auto;}
+#foot ul li{border-right:1px solid #7f337f;float:left;padding:0 8px;}
+#foot ul .li1{border-right:0;}
+#foot p{width:336px;margin:16px auto;}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册1号店</title>
+	<link rel="stylesheet" href="css/1storeRegister.css">
+	<script src = "js/require.js" async="true" defer data-main = 'js/mainstore'></script>
+</head>
+ <body>
+	<div id="head">
+		<div class="logo cr"><a href="index.html"><img src="../images/logo.jpg" alt=""></a></div>
+		<div class="login cr">
+			<ul class="ul1 cr">
+				<li class="li1">您好，欢迎光临1号店！</li>
+				<li class="li2"><a href="1storeLogin.html">请登录</a></li>
+				<div class="ul1_help cr">
+					<div class="ul1_help_top cr">
+						<img src="../images/helpIcon.jpg" alt="">	
+						<a href="" class="a1">帮助中心</a>
+						<img class="img1" src="../images/helpIcon1.jpg" alt="">
+					</div>
+					<div class="ul1_help_hidden">
+						<li class="lin"></li>
+						<li class="li0"><a href="">包裹跟踪</a></li>
+						<li><a href="">常见问题</a></li>
+						<li><a href="">在线退换货</a></li>
+						<li><a href="">在线投诉</a></li>
+					</div>				
+				</div>
+			</ul>
+		</div>
+	</div>
+	<div id="content">
+	 	<div id="hidden">
+			<span id="username_span"></span>
+			<span id="phone_span"></span>
+			<span id="msgcode_span"></span>
+			<span id="password_span"></span>
+			<span id="affirmKey_span"></span>
+		</div>
+		<div class="show">			
+			<p>1号店注册</p>
+			<form action="../js/1storeRegister.php" id="register" method="post" enctype="application/x-www-form-urlencoded">
+				<input id="username" type="text" placeholder="用户名" name="user"><br>
+				<input id="phone" type="text" placeholder="手机号" name="phone"><br>
+				<input id="msgcode" class="int3" name="msgcode" type="text" placeholder="短信验证码">
+				<button id="btn">获取验证码</button><br>
+				<input name="password" id="password" type="password" placeholder="设置密码"><br>
+				<input id="affirmKey" type="password" placeholder="确认密码"><br>
+				<label for="">点击注册，表示您同意1号店 <a href="">《服务协议及隐私声明》</a></label><br>
+				<input class="int6" type="submit" value="同意协议并注册">
+			</form>
+		</div>
+	</div>
+	<div id="foot">
+		<ul>
+			<li><a href="">沪ICP备16050468号</a></li>
+			<li><a href="">沪B2-20170039</a></li>
+			<li class="li1"><a href="">营业执照</a></li>
+		</ul><br>
+		<p>Copyright © 1号店网上超市 2007-2018，All Rights Reserved</p>
+	</div>
+</body>
+</html>

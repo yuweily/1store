@@ -1,0 +1,21 @@
+{
+  "name": "1store",
+  "version": "1.0.0",
+  "description": "1号店项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "1号店yhd.com全球进口频道中产品有来自欧洲的护肤品、澳洲的牛乳制品、东南亚的进口零食水果，以及各类正品母婴用品等，来1号店全球进口超市放心购物，省钱省力省时间！"
+  ],
+  "author": "ly",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass-china": "^3.1.0"
+  }
+}
